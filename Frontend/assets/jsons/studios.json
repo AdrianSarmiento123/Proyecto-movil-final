@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Warner Bros.",
+    "country": "Estados Unidos",
+    "founded_date": "1923-04-04T00:00:00.000",
+    "logo": "https://example.com/logos/warner.png",
+    "description": "Estudio cinematográfico estadounidense."
+  },
+  {
+    "id": 2,
+    "name": "Paramount Pictures",
+    "country": "Estados Unidos",
+    "founded_date": "1912-05-08T00:00:00.000",
+    "logo": "https://example.com/logos/paramount.png",
+    "description": "Uno de los estudios más antiguos de Hollywood."
+  },
+  {
+    "id": 3,
+    "name": "Universal Pictures",
+    "country": "Estados Unidos",
+    "founded_date": "1912-06-08T00:00:00.000",
+    "logo": "https://example.com/logos/universal.png",
+    "description": "Estudio especializado en cine comercial."
+  }
+]

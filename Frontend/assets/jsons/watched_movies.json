@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "watched_date": "2025-01-10T00:00:00.000",
+    "user_id": 1,
+    "movie_id": 1
+  },
+  {
+    "id": 2,
+    "watched_date": "2025-01-15T00:00:00.000",
+    "user_id": 1,
+    "movie_id": 2
+  },
+  {
+    "id": 3,
+    "watched_date": "2025-02-01T00:00:00.000",
+    "user_id": 2,
+    "movie_id": 1
+  },
+  {
+    "id": 4,
+    "watched_date": "2025-02-10T00:00:00.000",
+    "user_id": 3,
+    "movie_id": 3
+  },
+  {
+    "id": 5,
+    "watched_date": "2025-02-15T00:00:00.000",
+    "user_id": 4,
+    "movie_id": 4
+  },
+  {
+    "id": 6,
+    "watched_date": "2025-03-01T00:00:00.000",
+    "user_id": 5,
+    "movie_id": 5
+  },
+  {
+    "id": 7,
+    "watched_date": "2025-03-05T00:00:00.000",
+    "user_id": 6,
+    "movie_id": 2
+  },
+  {
+    "id": 8,
+    "watched_date": "2025-03-10T00:00:00.000",
+    "user_id": 7,
+    "movie_id": 3
+  },
+  {
+    "id": 9,
+    "watched_date": "2025-03-12T00:00:00.000",
+    "user_id": 8,
+    "movie_id": 1
+  },
+  {
+    "id": 10,
+    "watched_date": "2025-03-20T00:00:00.000",
+    "user_id": 10,
+    "movie_id": 5
+  }
+]

@@ -1,0 +1,47 @@
+#requests\api-reviews.http
+@baseUrl = http://localhost:5000/apis
+@token = YOUR_JWT_HERE
+
+
+#############################################
+# REVIEWS - LISTAR (JOIN USER + MOVIE)
+#############################################
+GET {{baseUrl}}/v1/reviews
+Authorization: Bearer {{token}}
+
+
+#############################################
+# REVIEWS - FILTRAR POR PELÍCULA
+#############################################
+GET {{baseUrl}}/v1/reviews/movie/1
+Authorization: Bearer {{token}}
+
+
+#############################################
+# REVIEWS - CREAR REVIEW
+#############################################
+POST {{baseUrl}}/v1/reviews
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "content": "Excelente película, muy recomendada",
+  "rating": 4.5,
+  "user_id": 1,
+  "movie_id": 1
+}
+
+
+#############################################
+# REVIEWS - OTRO EJEMPLO
+#############################################
+POST {{baseUrl}}/v1/reviews
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "content": "Actuaciones increíbles",
+  "rating": 5,
+  "user_id": 2,
+  "movie_id": 2
+}

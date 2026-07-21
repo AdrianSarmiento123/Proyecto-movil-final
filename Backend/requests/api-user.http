@@ -1,0 +1,29 @@
+@baseUrl = http://localhost:5000/apis
+@token = YOUR_JWT_HERE
+
+
+#############################################
+# USER - REGISTER
+#############################################
+POST {{baseUrl}}/v1/users/register
+Content-Type: application/json
+
+{
+  "username": "nuevo_usuario",
+  "password": "123456",
+  "first_name": "Carlos",
+  "last_name": "Pérez",
+  "email": "carlos@example.com"
+}
+
+
+#############################################
+# USER - LOGIN
+#############################################
+POST {{baseUrl}}/v1/users/login
+Content-Type: application/json
+
+{
+  "username": "jlopez",
+  "password": "123456"
+}

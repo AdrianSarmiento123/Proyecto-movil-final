@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "content": "Visualmente increíble y emocionante.",
+    "rating": 5,
+    "user_id": 1,
+    "movie_id": 1,
+    "user": {
+      "id": 1,
+      "username": "jdoe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "jdoe@example.com",
+      "status": true
+    }
+  },
+  {
+    "id": 2,
+    "content": "Una de las mejores películas de Nolan.",
+    "rating": 5,
+    "user_id": 2,
+    "movie_id": 1,
+    "user": {
+      "id": 2,
+      "username": "mgarcia",
+      "first_name": "Maria",
+      "last_name": "Garcia",
+      "email": "mgarcia@example.com",
+      "status": true
+    }
+  }
+]

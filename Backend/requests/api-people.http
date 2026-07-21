@@ -1,0 +1,30 @@
+@baseUrl = http://localhost:5000/apis
+@token = YOUR_JWT_HERE
+
+
+#############################################
+# PEOPLE - LISTAR
+#############################################
+GET {{baseUrl}}/v1/people
+Authorization: Bearer {{token}}
+
+
+#############################################
+# PEOPLE - DETALLE
+#############################################
+GET {{baseUrl}}/v1/people/1
+Authorization: Bearer {{token}}
+
+
+#############################################
+# PEOPLE - PELÍCULAS POR PERSONA
+#############################################
+GET {{baseUrl}}/v1/people/1/movies
+Authorization: Bearer {{token}}
+
+
+#############################################
+# PEOPLE - FILTRAR POR ROL
+#############################################
+GET {{baseUrl}}/v1/people/2/movies?role=Actor
+Authorization: Bearer {{token}}

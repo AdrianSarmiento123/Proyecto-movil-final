@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "movie_id": 1,
+    "person_id": 1,
+    "role": "Director",
+    "person": {
+      "id": 1,
+      "first_name": "Christopher",
+      "last_name": "Nolan",
+      "birth_date": "1970-07-30T00:00:00.000",
+      "biography": "Director, productor y guionista británico conocido por películas como Interstellar e Inception.",
+      "photo": "https://example.com/photos/nolan.jpg",
+      "sex": {
+        "id": 1,
+        "name": "Male"
+      },
+      "nationality": {
+        "id": 1,
+        "demonym": "British"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "movie_id": 1,
+    "person_id": 2,
+    "role": "Actor",
+    "person": {
+      "id": 2,
+      "first_name": "Matthew",
+      "last_name": "McConaughey",
+      "birth_date": "1969-11-04T00:00:00.000",
+      "biography": "Actor estadounidense ganador del premio Óscar.",
+      "photo": "https://example.com/photos/matthew.jpg",
+      "sex": {
+        "id": 1,
+        "name": "Male"
+      },
+      "nationality": {
+        "id": 2,
+        "demonym": "American"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "movie_id": 1,
+    "person_id": 3,
+    "role": "Actor",
+    "person": {
+      "id": 3,
+      "first_name": "Anne",
+      "last_name": "Hathaway",
+      "birth_date": "1982-11-12T00:00:00.000",
+      "biography": "Actriz estadounidense conocida por sus papeles en cine y televisión.",
+      "photo": "https://example.com/photos/anne.jpg",
+      "sex": {
+        "id": 2,
+        "name": "Female"
+      },
+      "nationality": {
+        "id": 2,
+        "demonym": "American"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "movie_id": 2,
+    "person_id": 1,
+    "role": "Director",
+    "person": {
+      "id": 1,
+      "first_name": "Christopher",
+      "last_name": "Nolan",
+      "birth_date": "1970-07-30T00:00:00.000",
+      "biography": "Director, productor y guionista británico.",
+      "photo": "https://example.com/photos/nolan.jpg",
+      "sex": {
+        "id": 1,
+        "name": "Male"
+      },
+      "nationality": {
+        "id": 1,
+        "demonym": "British"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "movie_id": 3,
+    "person_id": 4,
+    "role": "Actor",
+    "person": {
+      "id": 4,
+      "first_name": "Robert",
+      "last_name": "Pattinson",
+      "birth_date": "1986-05-13T00:00:00.000",
+      "biography": "Actor británico conocido por interpretar a Batman.",
+      "photo": "https://example.com/photos/pattinson.jpg",
+      "sex": {
+        "id": 1,
+        "name": "Male"
+      },
+      "nationality": {
+        "id": 1,
+        "demonym": "British"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "movie_id": 5,
+    "person_id": 5,
+    "role": "Actor",
+    "person": {
+      "id": 5,
+      "first_name": "Joaquin",
+      "last_name": "Phoenix",
+      "birth_date": "1974-10-28T00:00:00.000",
+      "biography": "Actor estadounidense ganador del premio Óscar.",
+      "photo": "https://example.com/photos/phoenix.jpg",
+      "sex": {
+        "id": 1,
+        "name": "Male"
+      },
+      "nationality": {
+        "id": 2,
+        "demonym": "American"
+      }
+    }
+  }
+]

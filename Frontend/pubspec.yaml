@@ -1,0 +1,36 @@
+name: biblioul
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  path_provider: ^2.1.6
+  sembast: ^3.8.9+1
+  syncfusion_flutter_pdfviewer: ^29.1.40
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/ulises.png
+    - assets/images/Imagen1.png
+
+    - assets/jsons/users.json
+    - assets/jsons/movies.json
+    - assets/jsons/reviews.json
+    - assets/jsons/studios.json
+    - assets/jsons/persons.json
+    - assets/jsons/movie_people.json
+    - assets/jsons/watched_movies.json
